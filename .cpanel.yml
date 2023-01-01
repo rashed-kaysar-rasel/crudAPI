@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dstudio/public_html/testrepo
+    - /bin/cp * $DEPLOYPATH
